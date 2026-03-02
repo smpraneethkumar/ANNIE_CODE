@@ -23,9 +23,12 @@ public class Main extends Functions{
         switch(option){
             case 1: forLoop();
                 break;
-            case 2:
+            case 2,3,4,5:
                 System.out.println("WORKING NO THEM!!!!!");
                 break;
+
+            default:
+                System.out.println("-> choose the right option <-");
         }
         }
 

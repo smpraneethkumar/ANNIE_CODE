@@ -11,16 +11,21 @@ public class Functions {
         System.out.println("enter your ending index here:");
         int end = scan.nextInt();
 
-        int a = start;
-        if(start >end){
+//        int a = start;
+//        a++;
+//        start++;
+//        if(start <end  && start != end){
+//            System.out.println(a);
 
-        System.out.println("(for i =" +start+"; i < "+end+"; i++) {");
+        for(int i = start;i<end;i++){
+        System.out.println("for(i = " +start+"; i < "+end+"; i++) {");
         System.out.println("hello world");
         System.out.println("}");
 
-        }else {
-            System.out.println("you have to enter greater END index number");
         }
+//        else {
+//            System.out.println("you have to enter greater END index number");
+//        }
 
 
     }
