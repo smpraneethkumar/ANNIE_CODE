@@ -21,10 +21,22 @@ public class Functions {
 
         int  i =0;
         while (i<end){
-        System.out.println("for(i = " +i+"; i < "+end+"; i++) {");
+        int userValue = scan.nextInt();
+        System.out.println("for(i = " +userValue+"; i < "+end+"; i++) {");
         System.out.println("hello world");
         System.out.println("}");
-i++;
+
+        if(userValue > end){
+            System.out.println("Now here the index value is "+userValue+"increased more than stating index ");
+            return;
+        }else {
+            System.out.println("now i value "+ userValue);
+        }
+
+//        if(userValue <i){
+//            i = userValue;
+//        }
+
         }
 //        else {
 //            System.out.println("you have to enter greater END index number");
