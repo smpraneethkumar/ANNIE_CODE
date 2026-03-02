@@ -17,11 +17,14 @@ public class Functions {
 //        if(start <end  && start != end){
 //            System.out.println(a);
 
-        for(int i = start;i<end;i++){
-        System.out.println("for(i = " +start+"; i < "+end+"; i++) {");
+//        for(int i = start;i<end;i++){
+
+        int  i =0;
+        while (i<end){
+        System.out.println("for(i = " +i+"; i < "+end+"; i++) {");
         System.out.println("hello world");
         System.out.println("}");
-
+i++;
         }
 //        else {
 //            System.out.println("you have to enter greater END index number");
