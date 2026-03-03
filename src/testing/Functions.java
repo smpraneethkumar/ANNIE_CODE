@@ -44,4 +44,8 @@ public class Functions {
 
 
     }
+
+    public  static void whileLoop(){
+
+    }
 }

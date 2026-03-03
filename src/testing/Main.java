@@ -21,7 +21,9 @@ public class Main extends Functions{
         switch(option){
             case 1: forLoop();
                 break;
-            case 2,3,4,5:
+            case 2: whileLoop();
+                break;
+            case 3,4,5:
                 System.out.println("WORKING NO THEM!!!!!");
                 break;
 
