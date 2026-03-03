@@ -11,19 +11,11 @@ public class Functions {
         System.out.println("enter your ending index here:");
         int end = scan.nextInt();
 
-//        int a = start;
-//        a++;
-//        start++;
-//        if(start <end  && start != end){
-//            System.out.println(a);
-
-//        for(int i = start;i<end;i++){
-
         int  i =0;
         while (i<end){
         int userValue = scan.nextInt();
         System.out.println("for(i = " +userValue+"; i < "+end+"; i++) {");
-        System.out.println("hello world");
+        System.out.println("Hello World!");
         System.out.println("}");
 
         if(userValue > end){
@@ -33,19 +25,20 @@ public class Functions {
             System.out.println("now i value "+ userValue);
         }
 
-//        if(userValue <i){
-//            i = userValue;
-//        }
-
         }
-//        else {
-//            System.out.println("you have to enter greater END index number");
-//        }
-
 
     }
 
     public  static void whileLoop(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("enter your starting index here:");
+        int start = scan.nextInt();
+        System.out.println("enter your ending index here:");
+        int end = scan.nextInt();
 
+
+        System.out.println("while("+"){");
+        System.out.println("Hello World!");
+        System.out.println("}");
     }
 }
