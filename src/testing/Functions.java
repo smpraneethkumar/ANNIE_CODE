@@ -37,8 +37,9 @@ public class Functions {
         int end = scan.nextInt();
 
 
-        System.out.println("while("+"){");
+        System.out.println("while("+start+" < "+end+"){");
         System.out.println("Hello World!");
+        System.out.println("i++; //HERE THE i VALUE WILL BE INCREMENTED");
         System.out.println("}");
     }
 }
