@@ -40,11 +40,12 @@ public class Functions {
         int end = scan.nextInt();
 
 while (start< end) {
+    System.out.println("Enter the running index:");
+    int userValue = scan.nextInt();
 
-
-    System.out.println("while(" + start + " < " + end + "){");
+    System.out.println("while(" + userValue + " < " + end + "){");
     System.out.println("Hello World!");
-    System.out.println("i++; //HERE THE i VALUE WILL BE INCREMENTED");
+    System.out.println("i++; //HERE THE i VALUE WILL BE INCREMENTED FOR execution");
     System.out.println("}");
 start++;
 }
