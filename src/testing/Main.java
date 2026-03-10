@@ -23,7 +23,9 @@ public class Main extends Functions{
                 break;
             case 2: whileLoop();
                 break;
-            case 3,4,5:
+            case 3: ifCondition();
+                break;
+            case 4,5:
                 System.out.println("WORKING NO THEM!!!!!");
                 break;
 
