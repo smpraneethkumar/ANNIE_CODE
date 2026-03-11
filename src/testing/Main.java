@@ -27,8 +27,7 @@ public class Main extends Functions{
                 break;
             case 4: ifElse();
                 break;
-            case 5:
-                System.out.println("WORKING NO THEM!!!!!");
+            case 5: switchCases();
                 break;
 
             default:

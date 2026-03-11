@@ -1,6 +1,5 @@
 package testing;
 
-import javax.swing.plaf.PanelUI;
 import java.util.Scanner;
 
 public class Functions {
@@ -39,9 +38,6 @@ public class Functions {
         for(int j =0;j<end;j++){
             System.out.println("Hello World!");
         }
-
-
-
 
     }
 
@@ -138,6 +134,11 @@ start++;
             System.out.println("--- OUTPUT ---");
             System.out.println("FALSE");
         }
+
+    }
+
+    public static void switchCases(){
+
 
     }
 }
