@@ -10,13 +10,14 @@ public class Functions {
         System.out.println();
         Scanner scan = new Scanner(System.in);
 
+//        input
         System.out.println("enter your starting index here:");
         int start = scan.nextInt();
         System.out.println("enter your ending index here:");
         int end = scan.nextInt();
 
-        int  i =0;
-        while (i<end){
+
+        while (start<=end){
             System.out.println("Enter the running index:");
         int userValue = scan.nextInt();
         System.out.println("for(i = " +userValue+"; i < "+end+"; i++) {");
@@ -24,13 +25,23 @@ public class Functions {
         System.out.println("}");
 
         if(userValue > end){
-            System.out.println("Now here the index value is "+userValue+"increased more than stating index ");
-            return;
+            System.out.println("Now here the index value is "+userValue+" increased more than ending index ");
         }else {
             System.out.println("now i value "+ userValue);
         }
+        start++;
 
         }
+
+//        output
+        System.out.println();
+        System.out.println("--- OUTPUT ---");
+        for(int j =0;j<end;j++){
+            System.out.println("Hello World!");
+        }
+
+
+
 
     }
 
@@ -43,7 +54,7 @@ public class Functions {
         System.out.println("enter your ending index here:");
         int end = scan.nextInt();
 
-while (start< end) {
+while (start<= end) {
     System.out.println("Enter the running index:");
     int userValue = scan.nextInt();
 
@@ -53,6 +64,14 @@ while (start< end) {
     System.out.println("}");
 start++;
 }
+
+//        output
+        System.out.println();
+        System.out.println("--- OUTPUT ---");
+        for(int j =0;j<end;j++){
+            System.out.println("Hello World!");
+        }
+
     }
 
     public static void ifCondition(){
@@ -71,6 +90,12 @@ start++;
             System.out.println("if( "+ num1+" > "+num2+"){");
             System.out.println("TURE");
             System.out.println("}");
+
+            //        output
+            System.out.println();
+            System.out.println("--- OUTPUT ---");
+            System.out.println("TURE");
+
 
         }else {
             System.out.println("NO, to check the num1 value should greater than nums2");
@@ -97,10 +122,21 @@ start++;
             System.out.println("TURE");
             System.out.println("}");
 
+            //        output
+            System.out.println();
+            System.out.println("--- OUTPUT ---");
+            System.out.println("TURE");
+
+
         }else {
             System.out.println("else{");
             System.out.println("FALSE");
             System.out.println("}");
+
+            //        output
+            System.out.println();
+            System.out.println("--- OUTPUT ---");
+            System.out.println("FALSE");
         }
 
     }
