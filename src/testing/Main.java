@@ -9,7 +9,7 @@ public class Main extends Functions{
 
 
         while (true){
-
+            System.out.println();
             System.out.println("====== WANT TO LEARN CODING ======");
             System.out.println("1. for loop");
             System.out.println("2. while");
@@ -25,7 +25,9 @@ public class Main extends Functions{
                 break;
             case 3: ifCondition();
                 break;
-            case 4,5:
+            case 4: ifElse();
+                break;
+            case 5:
                 System.out.println("WORKING NO THEM!!!!!");
                 break;
 

@@ -1,5 +1,6 @@
 package testing;
 
+import javax.swing.plaf.PanelUI;
 import java.util.Scanner;
 
 public class Functions {
@@ -56,10 +57,10 @@ start++;
 
     public static void ifCondition(){
         Scanner scan = new Scanner(System.in);
-        System.out.println("-> IF CONDITION:-To check if th condition is ture or not ");
+        System.out.println("-> IF CONDITION:-To check if the condition is ture or not ");
         System.out.println();
 
-        System.out.println("give any two number if the first number is greater than second");
+        System.out.println("give any two number if the first number is greater than second (ANSWER:TURE)");
 
         System.out.println("enter num1:");
         int num1 = scan.nextInt();
@@ -74,6 +75,32 @@ start++;
         }else {
             System.out.println("NO, to check the num1 value should greater than nums2");
             System.out.println("code is FALSE");
+        }
+
+    }
+
+    public static void ifElse(){
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("-> IF-ELSE CONDITION:- in this if IF CONDITION  is failed then ELSE block will execution");
+        System.out.println();
+
+        System.out.println("give any two number if the first number is greater than second (ANSWER:TURE)");
+
+        System.out.println("enter num1:");
+        int num1 = scan.nextInt();
+        System.out.println("enter num2:");
+        int num2 = scan.nextInt();
+
+        if(num1 > num2){
+            System.out.println("if( "+ num1+" > "+num2+"){");
+            System.out.println("TURE");
+            System.out.println("}");
+
+        }else {
+            System.out.println("else{");
+            System.out.println("FALSE");
+            System.out.println("}");
         }
 
     }
