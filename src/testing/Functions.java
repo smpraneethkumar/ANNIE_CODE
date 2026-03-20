@@ -22,6 +22,7 @@ public class Functions {
         System.out.println("for(i = " +userValue+"; i < "+end+"; i++) {");
         System.out.println("Hello World!");
         System.out.println("}");
+            System.out.println();
 
         if(userValue > end){
             System.out.println("Now here the index value is "+userValue+" increased more than ending index ");
